@@ -1,0 +1,86 @@
+# Generated from code-colors.toml; do not edit directly.
+"keyword" = "syntax_keyword"
+"keyword.control" = "syntax_keyword"
+"function" = "syntax_function"
+"function.builtin" = "syntax_function"
+"function.macro" = "syntax_macro"
+"type" = "syntax_type"
+"type.builtin" = "syntax_type"
+"constructor" = "syntax_function"
+"constant" = "syntax_constant"
+"constant.builtin" = "syntax_constant"
+"constant.numeric" = "syntax_number"
+"string" = "syntax_string"
+"string.regexp" = "syntax_string"
+"string.special" = "syntax_operator"
+"comment" = "syntax_comment"
+"variable" = "foreground"
+"variable.parameter" = "syntax_property"
+"variable.other.member" = "syntax_property"
+"operator" = "syntax_operator"
+"tag" = "syntax_decorator"
+"namespace" = "syntax_type"
+"attribute" = "syntax_decorator"
+"punctuation" = "syntax_punctuation"
+
+"markup.heading" = "accent"
+"markup.link.url" = { fg = "blue", modifiers = ["underlined"] }
+"markup.link.text" = "accent"
+"markup.raw" = "green"
+"markup.quote" = "muted"
+
+"diff.plus" = "green"
+"diff.minus" = "red"
+"diff.delta" = "orange"
+
+"ui.background" = { fg = "foreground", bg = "background" }
+"ui.text" = "foreground"
+"ui.text.inactive" = "muted"
+"ui.linenr" = { fg = "muted" }
+"ui.selection" = { bg = "selection_background", fg = "selection_foreground" }
+"ui.cursor" = { fg = "background", bg = "cursor" }
+"ui.statusline" = { fg = "background", bg = "foreground" }
+"ui.statusline.normal" = { fg = "background", bg = "blue", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "background", bg = "green", modifiers = ["bold"] }
+"ui.statusline.select" = { fg = "background", bg = "accent", modifiers = ["bold"] }
+"diagnostic.error" = { underline = { color = "diagnostic_error", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "diagnostic_warning", style = "curl" } }
+"diagnostic.info" = { underline = { color = "diagnostic_info", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "diagnostic_hint", style = "curl" } }
+error = "diagnostic_error"
+warning = "diagnostic_warning"
+info = "diagnostic_info"
+hint = "diagnostic_hint"
+
+[palette]
+background = "#1C1D19"
+foreground = "#EAE4D3"
+lighter_background = "#282A23"
+cursor = "#FFF5DA"
+selection_background = "#49402B"
+selection_foreground = "#EAE4D3"
+accent = "#E8BD59"
+muted = "#ABA08A"
+red = "#E89189"
+yellow = "#E8BD59"
+orange = "#E3A16E"
+green = "#A8C486"
+cyan = "#86C5B5"
+blue = "#91B9DA"
+bright_yellow = "#F5D780"
+syntax_comment = "#ABA08A"
+syntax_keyword = "#E8BD59"
+syntax_function = "#91B9DA"
+syntax_type = "#F5D780"
+syntax_string = "#A8C486"
+syntax_number = "#E3A16E"
+syntax_constant = "#DCBBE5"
+syntax_property = "#86C5B5"
+syntax_operator = "#C7A0D3"
+syntax_punctuation = "#ABA08A"
+syntax_macro = "#C7A0D3"
+syntax_decorator = "#91B9DA"
+diagnostic_error = "#E89189"
+diagnostic_warning = "#E8BD59"
+diagnostic_info = "#91B9DA"
+diagnostic_hint = "#86C5B5"

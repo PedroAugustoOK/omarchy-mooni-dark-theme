@@ -1,0 +1,22 @@
+# Shared semantic contract for source code across editors.
+# Values refer to keys in colors.toml, keeping every Omarchy theme consistent.
+
+[syntax]
+comment = "code_comment"
+keyword = "code_keyword"
+function = "code_function"
+type = "code_type"
+string = "code_string"
+number = "code_number"
+constant = "code_constant"
+property = "code_property"
+operator = "code_operator"
+punctuation = "code_punctuation"
+macro = "code_operator"
+decorator = "code_function"
+
+[diagnostics]
+error = "code_error"
+warning = "code_warning"
+info = "code_info"
+hint = "code_hint"

@@ -1,0 +1,88 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+  "name": "Omarchy Mooni Dark",
+  "author": "Pedro Augusto",
+  "themes": [
+    {
+      "name": "Omarchy Mooni Dark",
+      "appearance": "dark",
+      "style": {
+        "background": "#1C1D19",
+        "editor.background": "#1C1D19",
+        "editor.foreground": "#EAE4D3",
+        "text": "#EAE4D3",
+        "text.muted": "#ABA08A",
+        "border": "#34362D",
+        "panel.background": "#161713",
+        "title_bar.background": "#1C1D19",
+        "status_bar.background": "#161713",
+        "tab.active_background": "#49402B",
+        "element.hover": "#49402B",
+        "element.selected": "#49402B",
+        "editor.active_line.background": "#161713",
+        "editor.gutter.background": "#1C1D19",
+        "terminal.background": "#1C1D19",
+        "terminal.foreground": "#EAE4D3",
+        "syntax": {
+          "comment": {
+            "color": "#ABA08A",
+            "font_style": "italic"
+          },
+          "keyword": {
+            "color": "#E8BD59"
+          },
+          "function": {
+            "color": "#91B9DA"
+          },
+          "type": {
+            "color": "#F5D780"
+          },
+          "string": {
+            "color": "#A8C486"
+          },
+          "number": {
+            "color": "#E3A16E"
+          },
+          "constant": {
+            "color": "#DCBBE5"
+          },
+          "property": {
+            "color": "#86C5B5"
+          },
+          "operator": {
+            "color": "#C7A0D3"
+          },
+          "punctuation": {
+            "color": "#ABA08A"
+          },
+          "macro": {
+            "color": "#C7A0D3"
+          },
+          "decorator": {
+            "color": "#91B9DA"
+          }
+        },
+        "terminal.ansi.black": "#1C1D19",
+        "terminal.ansi.red": "#E89189",
+        "terminal.ansi.green": "#A8C486",
+        "terminal.ansi.yellow": "#E8BD59",
+        "terminal.ansi.blue": "#91B9DA",
+        "terminal.ansi.magenta": "#C7A0D3",
+        "terminal.ansi.cyan": "#86C5B5",
+        "terminal.ansi.white": "#C9C1AC",
+        "terminal.ansi.bright_black": "#ABA08A",
+        "terminal.ansi.bright_red": "#F2A59A",
+        "terminal.ansi.bright_green": "#BCD69C",
+        "terminal.ansi.bright_yellow": "#F5D780",
+        "terminal.ansi.bright_blue": "#ACD0EC",
+        "terminal.ansi.bright_magenta": "#DCBBE5",
+        "terminal.ansi.bright_cyan": "#A1DBCA",
+        "terminal.ansi.bright_white": "#FFF5DA",
+        "error": "#E89189",
+        "warning": "#E8BD59",
+        "info": "#91B9DA",
+        "hint": "#86C5B5"
+      }
+    }
+  ]
+}
