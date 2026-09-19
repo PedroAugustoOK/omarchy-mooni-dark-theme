@@ -19,9 +19,9 @@ root-level VS Code and Helix color overrides, and thirteen optional integrations
 Three user-provided wallpapers are preserved without cropping or upscaling; the
 fourth is a 3840×2160 Omarchy wordmark composition.
 
-`preview.png` and `preview-unlock.png` are real captures from Omarchy. The lock
-preview was opened through Omarchy's safe preview mode, without locking the
-session. `unlock.png` belongs to the separate Plymouth disk-unlock interface.
+`preview.png` is a real Omarchy capture. `preview-unlock.png` faithfully renders
+the Plymouth disk-unlock interface with the theme's `unlock.png`, palette, and
+Omarchy's official geometry.
 
 No VS Code reload hook is installed by this theme. See [INTEGRATIONS.md](INTEGRATIONS.md)
 for optional app setup and [ATTRIBUTIONS.md](ATTRIBUTIONS.md) for image rights.
@@ -29,6 +29,7 @@ for optional app setup and [ATTRIBUTIONS.md](ATTRIBUTIONS.md) for image rights.
 ```sh
 python3 scripts/generate-code-theme.py
 python3 scripts/generate-integrations.py
+sh scripts/render-assets.sh
 python3 scripts/validate-theme.py
 ```
 

@@ -12,9 +12,9 @@ publicar ou redistribuir os wallpapers.
 
 A logo vetorial vem de /usr/share/omarchy/logo.svg, do projeto Omarchy.
 O wallpaper com a logo e o símbolo lunar foram compostos para este tema. A logo
-mantém a geometria original, sem contorno ou sombra. `preview.png` e
-`preview-unlock.png` são capturas reais do tema aplicado no Omarchy; não contêm
-assets adicionais além dos já descritos aqui e não foram geradas por IA,
-recoloridas ou emprestadas de outro tema. Veja [PREVIEWS.md](PREVIEWS.md).
+mantém a geometria original, sem contorno ou sombra. `preview.png` é uma captura
+real do tema aplicado no Omarchy; `preview-unlock.png` é renderizado com os
+assets oficiais do Plymouth e o símbolo do tema. Nenhuma prévia foi gerada por
+IA ou emprestada de outro tema. Veja [PREVIEWS.md](PREVIEWS.md).
 
 Base de código: Omarchy Mooni, do mesmo autor, sob MIT.

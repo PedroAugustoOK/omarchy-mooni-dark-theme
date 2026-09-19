@@ -32,7 +32,7 @@ dependendo do Omarchy e do próprio VS Code.
 - Treze integrações opcionais em [INTEGRATIONS.md](INTEGRATIONS.md).
 - Três wallpapers fornecidos pelo usuário, preservados sem cortes ou upscale.
 - Quarto wallpaper com a logo vetorial oficial, renderizado em 3840×2160.
-- Ícones Yaru Yellow e capturas reais do desktop e da tela de bloqueio.
+- Ícones Yaru Yellow, captura real do desktop e prévia fiel do Plymouth.
 
 O wallpaper de Natal é mais claro e tem proporção diferente de 16:9; o ajuste
 à tela depende do compositor. O primeiro wallpaper é o padrão escuro.
@@ -47,13 +47,12 @@ python3 scripts/validate-theme.py
 ```
 
 Python 3.11+; librsvg (`rsvg-convert`) apenas para renderizar os assets vetoriais.
-Os PNGs já estão incluídos. `preview-unlock.png` mostra a prévia real do bloqueio
-da sessão; `unlock.png` é o símbolo usado pelo desbloqueio de disco (Plymouth),
-que é uma interface distinta.
+Os PNGs já estão incluídos. `preview-unlock.png` reproduz o desbloqueio de disco
+do Plymouth usando `unlock.png`, a paleta e a geometria oficial do Omarchy.
 Neovim e terminais continuam seguindo os templates oficiais do sistema.
 
-## Tela de bloqueio
+## Desbloqueio de disco
 
-![Captura real da tela de bloqueio](preview-unlock.png)
+![Prévia do desbloqueio de disco](preview-unlock.png)
 
 [Créditos e condições das imagens](ATTRIBUTIONS.md). Código: [MIT](LICENSE).
