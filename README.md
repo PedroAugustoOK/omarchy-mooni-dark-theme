@@ -49,6 +49,8 @@ python3 scripts/validate-theme.py
 Python 3.11+; librsvg (`rsvg-convert`) apenas para renderizar os assets vetoriais.
 Os PNGs já estão incluídos. `preview-unlock.png` reproduz o desbloqueio de disco
 do Plymouth usando `unlock.png`, a paleta e a geometria oficial do Omarchy.
+As duas variantes Mooni usam a mesma tela transparente de 800×400 e uma caixa
+visual intermediária de 344×234 para alinhar símbolo e campo de senha.
 Neovim e terminais continuam seguindo os templates oficiais do sistema.
 
 ## Desbloqueio de disco

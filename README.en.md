@@ -22,6 +22,8 @@ fourth is a 3840×2160 Omarchy wordmark composition.
 `preview.png` is a real Omarchy capture. `preview-unlock.png` faithfully renders
 the Plymouth disk-unlock interface with the theme's `unlock.png`, palette, and
 Omarchy's official geometry.
+Mooni and Mooni Dark normalize their symbols to a shared 800×400 transparent
+canvas and an intermediate 344×234 visual box so both variants stay aligned.
 
 No VS Code reload hook is installed by this theme. See [INTEGRATIONS.md](INTEGRATIONS.md)
 for optional app setup and [ATTRIBUTIONS.md](ATTRIBUTIONS.md) for image rights.
